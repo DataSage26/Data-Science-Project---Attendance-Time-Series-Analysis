@@ -11,3 +11,7 @@
 ### I have completed Autocorrelation (ACF) and Partial Autocorrelation (PACF), the ACF indicates shows a positive correlation between the time series and the lagged version of itself, as the lags increase however all lags sit outside of the significance. The PACF shows the lags once the effects of shorter lags have been removed, this is helpful for determining the best order for ARIMA.
 
 ![ACF & PACF Graphs](https://github.com/DataSage26/Data-Science-Project---Attendance-Time-Series-Analysis/blob/main/ACF%20%26%20PACF.png)
+
+### I evaluated the parameters of various p, d and q values to determine the order for the ARIMA where it was determined that 10, 0, 1 provided the best based on the train dataset, this gave a RMSE of 1072.091 which indicates the model is going to have a significant error margin. 
+
+### The Results of the model show that the model was not effective at predicting audience attendance compared to the actual data. 
