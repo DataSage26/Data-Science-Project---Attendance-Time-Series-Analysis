@@ -9,3 +9,4 @@
 ### I have used Excel Power Query to engineer the data before then completing full Exploratory Data Analysis (EDA) and an ARIMA Model within Python. Excel Power Query was chosen over Python to complete the data wrangling due to the ease of use (being no code), the size of the data and due to the types of engineering required being relatively straightforward in Excel where they may be less straightforward in Python.
 
 ### I have completed Autocorrelation (ACF) and Partial Autocorrelation (PACF), the ACF indicates shows a positive correlation between the time series and the lagged version of itself, as the lags increase however all lags sit outside of the significance. The PACF shows the lags once the effects of shorter lags have been removed, this is helpful for determining the best order for ARIMA.
+![ACF & PACF Graphs](ACF & PACF.png)
