@@ -18,7 +18,7 @@ where it was determined that 10, 0, 1 provided the best based on the train datas
 ### The Results of the model show that the model was not effective at predicting audience attendance compared to the actual data. 
 ![ARIMA Model Output](https://github.com/DataSage26/Data-Science-Project---Attendance-Time-Series-Analysis/blob/main/ARIMA%20model%20output.png)
 
-### the table below shows metrics taken from the test dataset
+### the table below shows metrics taken from the test dataset:
 
 |Metric |Score|
 |-------|-----|
@@ -29,3 +29,5 @@ where it was determined that 10, 0, 1 provided the best based on the train datas
 |RMSE   |1745.01|
 |CORR   |-0.07 |
 |MINMAX |0.13 |
+
+### The metrics indicate that the model is not predicting accurately, with an RMSE of 1745.25 is an exceptionally large error margin for the data, meaning accurate predictions would not be achieved using this model. 
